@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+}
+.contanner{
+    height: 800px;
+    /* margin: 0 auto; */
+}
+.header{
+    height: 100px;
+    background-color: aqua;
+}
+.content{
+    height: 600px;
+    background-color: blue;
+    
+}
+
+.footer{
+    height: 100px;
+    background-color: brown;
+}
+.Nav{
+   align-items: center;
+
+   
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(66, 8, 8);
+    padding: 10px;
+    text-align: center;
+    margin-left:20px ;
+    float: left;
+}
+li{
+    float: left;
+}
+li a{
+color: white;
+text-decoration: none;
+padding: 16px;
+text-align: center;
+}
+li a:hover{
+background-color: brown;
+}
+
