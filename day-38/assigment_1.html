@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        var name = prompt("Enter your name: ")
+        var python = parseInt(prompt("Enter python marks: "))
+        var DS = parseFloat(prompt("Enter DS markx: "))
+        var OS = parseFloat(prompt("Enter OS markx: ")) 
+        var ML = parseFloat(prompt("Enter ML markx: ")) 
+        var Javascript = parseFloat(prompt("Enter Javascrript markx: ")) 
+        var total =  500;
+        console.log("MARK SHEET OF: "+name)
+        console.log(`Python: ${python}\nData Science: ${DS} \nOperating system: ${OS}\n Machine Learning: ${ML}\nJavascrpt: ${Javascript}`);
+        var sum = python+DS+OS+ML+Javascript ;
+        var persantge = sum/total*100
+        
+        console.log(`Obtain Marks: ${sum} \nTotal Markx: ${total}\nPersantage is ${persantge}%`);
+       
+    </script>
+
+
+</body>
+</html>
