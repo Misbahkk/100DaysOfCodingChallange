@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        var num=parseInt(prompt("Enter a num for  write table: "))
+        var num_table = parseInt(prompt("enter a number for table range: "))
+        var upper_num = parseInt(prompt("Enter a num start the table: "))
+        var lower_num = parseInt(prompt("Enter a num last the table: "))
+        // for(i=upper_num;i<=lower_num;i++){
+        //     console.log(`${num} X ${i} = ${num*i}`)
+        // }
+
+
+
+        // Nested Lop
+        for(i=num;i<=num_table;i++){
+            console.log(`****Table OF ${i}`)
+            for(j=upper_num;j<=lower_num;j++){
+                console.log(`${i} X ${j} = ${i*j}`)
+            }
+        }
+    </script>
+</body>
+</html>
