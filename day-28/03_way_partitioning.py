@@ -4,7 +4,7 @@ around the range such that the array is divided into three parts.
 2) All elements in range a to b come next.
 3) All elements greater than b appear in the end.
 The individual elements of three sets can appear in any order. You are required to 
-return the modified array.
+return the modified array.....
 
 Note: The generated output is 1 if you modify the given array successfully.
 
@@ -36,7 +36,7 @@ class Solution:
 		print(array)
 		return 1
 		
-
+# This is array
 n = 15 
 array = [10, 7, 6 ,1 ,4, 10 ,5, 2 ,7 ,5 ,3, 3, 8, 3, 8]
 a, b = 5,5
