@@ -2,15 +2,15 @@
 test1_questions = [
 {
     "question": "Who is the creator of Python programming language?\nA. James Gosling\nB. Dennis Ritchie\nC. Guido van Rossum\nD. Bjarne Stroustrup",
-    "correct_answer": "C"
+    "correct_answer": "C",
 },
 {
     "question": "In which year was Python first released?\nA. 1989\nB. 1991\nC. 1995\nD. 2000",
-    "correct_answer": "B"
+    "correct_answer": "B",
 },
 {
     "question": "Which of the following is a characteristic of Python?\nA. Low-level programming language\nB. Statically typed\nC. Interpreted language\nD. Requires manual memory management",
-    "correct_answer": "C"
+    "correct_answer": "C",
 },
 {
     "question": "Which file extension is used for Python source files?\nA. .java\nB. .py\nC. .cpp\nD. .php",
