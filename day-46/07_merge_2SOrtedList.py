@@ -1,7 +1,7 @@
 """21. Merge Two Sorted Lists
 You are given the heads of two sorted linked lists list1 and list2.
 
-Merge the two lists into one sorted list. 
+Merge the two lists into one sorted list..........
 The list should be made by splicing together the nodes of the first two lists."""
 
 class ListNode(object):
@@ -25,15 +25,7 @@ class Solution(object):
         else:
             list2.next = self.mergeTwoLists(list1, list2.next)
             return list2
-
-
-
-
-
-
         
-
-
 list1 = ListNode(2)
 list1.next = ListNode(3)
 list1.next.next = ListNode(4)
@@ -48,7 +40,4 @@ sorted_list = obj.mergeTwoLists(list1,list2)
 while sorted_list:
   print(sorted_list.val)
   sorted_list = sorted_list.next
-
-
-
 
