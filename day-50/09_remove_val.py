@@ -6,7 +6,9 @@ class Solution(object):
         """
         :type nums: List[int]
         :type val: int
+        
         :rtype: int
+        
         """
         if not nums:
             return 0
@@ -18,13 +20,6 @@ class Solution(object):
                 k+=1
             
         return k
-                
-
-
-        
-
-
-
 nums = [0,1,2,2,3,0,4,2]
 # nums = [3,2,2,3]
 # nums =[2]
