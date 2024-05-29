@@ -11,8 +11,14 @@ class Solution(object):
         if not nums:
             return 0
         
-        k =1
+        # k =1
+        k=1
 
+
+
+
+
+        
         n = len(nums)
         for i in range(1,n):
            if nums[i] != nums[k-1]:
