@@ -1,8 +1,7 @@
-#Get all rows in a Pandas DataFrame containing given substring
+#Get all rows in a Pandas DataFrame containing the given substring
 '''Let’s see how to get all rows in a Pandas DataFrame containing given substring with the help of different examples.'''
 
 import pandas as pd 
-
 data = {'Name': ['Geeks', 'Peter', 'James', 'Jack', 'Lisa'], 
         'Team': ['Boston', 'Boston', 'Boston', 'Chele', 'Barse'], 
         'Position': ['PG', 'PG', 'UG', 'PG', 'UG'], 
