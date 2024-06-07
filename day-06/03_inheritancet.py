@@ -14,7 +14,8 @@ class Dog(Animal):
     info = "The DOg IS very Cute"
 
     def __init__(self,name):
-        #try to acess the __init__ f=method of Animal class
+        #try to acess the 
+        #__init__ f=method of Animal class
         #Python privide us to access the inheritance class method
         #through super
         super().__init__(name)
