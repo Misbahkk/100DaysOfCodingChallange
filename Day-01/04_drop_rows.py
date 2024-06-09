@@ -5,6 +5,7 @@ import pandas as pd
 df = pd.read_csv('nba.csv')
 
 # print(df.head())
+#print()
 
 ## Filter rows where the player's age is 25 or older
 age_row = df[df['Age']>=25]
