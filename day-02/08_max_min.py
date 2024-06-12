@@ -1,6 +1,8 @@
 import pandas as pd
 
-#Select row with maximum and minimum value in Pandas dataframe
+#Select a row with maximum and minimum values in Pandas data frame
+# 
+
 
 
 data1 = {'Driver': ['Hamilton', 'Vettel', 'Raikkonen',
