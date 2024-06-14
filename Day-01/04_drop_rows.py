@@ -1,6 +1,7 @@
 import pandas as pd 
 
-#Drop rows from the data frame based on certain conditions applied on a column
+#Drop          
+#rows from the data frame based on certain conditions applied on a column
                              
 df = pd.read_csv('nba.csv')
 
