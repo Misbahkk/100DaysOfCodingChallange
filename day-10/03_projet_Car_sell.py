@@ -9,7 +9,7 @@ print(car_df.columns)
 print(car_df['brand'])
 #find the top brand
 selling_propotional = car_df["brand"].value_counts(normalize=True)
-# filter the brand that sell grater than 0.05%
+# #filter the brand that sell grater than 0.05%
 selling_bol = selling_propotional > 0.05
 top_brand = selling_propotional[selling_bol]
 brand_name = top_brand.index
@@ -17,7 +17,7 @@ top_selling_brand = car_df[car_df['brand'].isin(brand_name)].copy()
 
 print(top_selling_brand)
 
-# clean the price column
+# #clean the price column
 top_selling_brand['price']=top_selling_brand['price'].str.replace('$','').str.replace(',','').astype(int)
 print(top_selling_brand['price'])
 
