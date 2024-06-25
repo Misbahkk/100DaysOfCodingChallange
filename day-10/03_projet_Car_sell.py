@@ -5,7 +5,7 @@ car_df = pd.read_csv(r"practice on youtube vedio\cars.csv",encoding="latin-1")
 print(car_df.head())
 
 print(car_df.columns)
-### perfoerm the operation on Brand column
+#  perfoerm the operation on Brand column
 print(car_df['brand'])
 #find the top brand
 selling_propotional = car_df["brand"].value_counts(normalize=True)
