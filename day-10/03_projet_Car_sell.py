@@ -1,4 +1,4 @@
-##import pandas as pd 
+import pandas as pd 
 
 
 car_df = pd.read_csv(r"practice on youtube vedio\cars.csv",encoding="latin-1")
