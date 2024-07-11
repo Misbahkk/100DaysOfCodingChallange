@@ -1,7 +1,7 @@
 import os
 from google.cloud import language_v1
 
-# Set the environment variable for authentication
+# ####Set the environment variable for authentication
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "D:\\fyp\\indigo-pod-428619-d2-87f3e06bafd9.json"
 
 def analyze_sentiment(text):
