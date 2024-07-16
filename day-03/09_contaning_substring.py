@@ -1,4 +1,4 @@
-#Get all rows in a Pandas DataFrame containing the given substring
+###Get all rows in a Pandas DataFrame containing the given substring
 '''Let’s see how to get all rows in a Pandas DataFrame containing given substring with the help of different examples.'''
 
 import pandas as pd 
