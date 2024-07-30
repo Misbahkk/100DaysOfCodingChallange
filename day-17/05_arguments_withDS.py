@@ -10,7 +10,7 @@ def count_entries(df, col_name="Gender"):
     # Initialize an empty dictionary: cols_count
     cols_count = {}
 
-    # Extract column from DataFrame: col
+    # ##Extract column from DataFrame: col
     col = df[col_name]
     
     # Iterate over the column in DataFrame
