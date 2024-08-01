@@ -6,7 +6,7 @@ import pandas as pd
 Let’s see how can we convert a column to row name/index in Pandas. """
 
 
-#Create a dataframe first with dict of lists. 
+# Create a dataframe first with dict of lists. 
 
 
 data = {'Name':["Akash", "Geeku", "Pankaj", "Sumitra","Ramlal"],
