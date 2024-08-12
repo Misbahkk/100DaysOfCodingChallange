@@ -4,7 +4,7 @@ class Student:
         self.score = score
 
 students = [Student("Misbah",70),Student("Maadeha",80),Student("radia",67),Student("Laiba",56),Student("Mahma",95),Student("Aina",46)]
-
+##
 
 student_result=[]
 
