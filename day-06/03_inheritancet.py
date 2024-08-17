@@ -1,6 +1,6 @@
 import random
 
-##Mene Dog Class inherit ki ha Animal sa ab voo animal ki function or code ko access kr skta ha 
+###Mene Dog Class inherit ki ha Animal sa ab voo animal ki function or code ko access kr skta ha 
 
 class Animal():
     info = "Animal Are Living THings they can sleep and eat"
