@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Thask ! -->
+   <!-- <p id="p1"></p>
+   <p id="p2"></p>
+   <p id="p3"></p> -->
+
+   <!-- --------------------------------- -->
+
+    <h1>Student Info</h1>
+    <label>Name</label>
+    <input type="text" name="" id="name"><br><br>
+
+    <label>department</label>
+    <input type="text" name="" id="deprt"><br><br>
+
+    <label>CGPA</label>
+    <input type="text" name="" id="cgpa"><br><br>
+
+    <label>Age</label>
+    <input type="text" name="" id="Age"><br><br>
+
+    <button id="submit">Submit</button>
+
+
+        <div class="info" style="display:none;">
+            <h1>Student detail</h1>
+            <span><b>Name: </b> <i id="n"></i></span><br>
+            <span><b>department: </b> <i id="d"></i></span><br>
+            <span><b>CGPA: </b> <i id="c"></i></span><br>
+            <span><b>AGE: </b> <i id="a"></i></span><br>
+        </div>
+
+    <script>
+    // let name = "misbah";
+    // let fname = 'M.yousaf';
+    // let age = 22;
+
+    // document.getElementById('p1').textContent = `My Name Is ${name}`
+    // document.getElementById('p2').textContent = `My father Name Is ${fname}`
+    // document.getElementById('p3').textContent = `My Age Is ${age}`
+
+// -----------------------------------------------------------
+
+
+
+            // Task 2
+
+            let name;
+            let dep;
+            let cgpa;
+            let age;
+            document.getElementById('submit').onclick = function(){
+                name = document.getElementById('name').value
+                dep = document.getElementById('deprt').value
+                cgpa = document.getElementById('cgpa').value
+                age = document.getElementById('Age').value
+
+            //     if (name === "" || dep === "" || cgpa === "" || age === "") {
+            //     alert("Please fill out all fields.");
+            //     return;
+            // }
+
+                document.getElementById('n').textContent = name;
+                document.getElementById('d').textContent = dep;
+                document.getElementById('c').textContent = cgpa;
+                document.getElementById('a').textContent = age;
+                
+                document.getElementById('info').style.display = 'block';
+            
+                
+                
+            }
+
+
+
+    </script>
+</body>
+</html>
