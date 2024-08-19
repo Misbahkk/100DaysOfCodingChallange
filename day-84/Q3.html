@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #count{
+            display: block;
+            text-align: center;
+            font-size: 5rem;
+        }
+        #btndiv{
+            text-align: center;
+        }
+        button{
+            padding: 10px;
+            font-size: 1rem;
+            color: white;
+            background-color: blue;
+            border: solid rgb(218, 218, 255);
+            border-radius: 7px;
+            cursor: pointer;
+            transition: background-color 0.75;
+            margin-top: 10px;
+        }
+        button:hover{
+            background-color: rgb(86, 30, 255);
+        }
+        hr{
+            width: 50%;
+            margin-top: 30px;
+            margin-bottom:30px;
+            height: 8px;
+            background-color: black;
+            border-radius: 30px;
+        }
+        #rollBtn{
+            padding: 10px 30px;
+            font-weight: 900;
+        }
+        #labelRoll{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+
+    <label id="count">0</label>
+    <div id="btndiv">
+        <button id="decress">Decress</button>
+        <button id="reset">Reset</button>
+        <button id="incress">Incress</button>
+    </div>
+
+    <hr>
+    <button id="rollBtn">Roll</button><br>
+    <label id="labelRoll"></label>
+
+
+
+    <script>
+
+        const decress = document.getElementById('decress');
+        const reset = document.getElementById('reset');
+        const incress = document.getElementById('incress');
+        const counter = document.getElementById('count');
+        let count=0;
+
+        incress.onclick =function(){
+            count++
+            counter.textContent = count
+        }
+        decress.onclick = function() {
+            count--
+            counter.textContent = count
+        }
+        reset.onclick = function(){
+            count = 0;
+            counter.textContent = count
+        }
+
+
+
+        // random number for Roll dice
+
+        buttonroll = document.getElementById('rollBtn');
+        lableroll = document.getElementById('labelRoll');
+
+        let min = 1;
+        let max = 6;
+
+
+        let number;
+        
+        buttonroll.onclick = function(){
+            
+          number = Math.floor(Math.random()*(max-min))+min;
+          lableroll.textContent = number
+            
+        } 
+
+
+
+    </script>
+    
+</body>
+</html>
