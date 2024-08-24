@@ -1,5 +1,6 @@
 # Row with a minimum number of 1's
 #
+# 
 class Solution:
     def minRow(self,n,m,a):
         
