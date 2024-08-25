@@ -1,4 +1,4 @@
-###Ranking Rows of Pandas DataFrame
+###########Ranking Rows of Pandas DataFrame
 
 """To rank the rows of Pandas DataFrame we can use the DataFrame.rank() 
 method which returns a rank of every respective index of a series passed. 
