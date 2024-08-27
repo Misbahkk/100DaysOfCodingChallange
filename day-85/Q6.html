@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <script>
+        //Create a gassing game
+        
+
+        const minValue = 1;
+        const maxValue = 100;
+        const randomNum = Math.floor(Math.random()*(maxValue-minValue))+minValue;
+
+        
+        // alert(`Your number ${guseNum} and random numer ${randomNum}`)
+        // if(guseNum<minValue || guseNum>maxValue){
+        //         alert("Your number is out of range");
+        //     }
+        // else{
+        //     // count++;
+        //     if(guseNum>randomNum){
+        //         alert("Your NUmber is too high");
+        //     }
+        //     else if(guseNum<randomNum){
+        //         alert("Your NUmber is Too small")
+        //     }
+        //     else if(guseNum==randomNum){
+        //         alert(`Congrat20s!! YOu Guse a number in ${count}`)
+        //         loopCon = false
+        //     }
+        // }
+        let count = 0;
+        let loopCon = true;
+
+        while(loopCon){
+            let guseNum = prompt(`Enter Your Number  in range ${minValue} to ${maxValue}`);
+        guseNum = Number(guseNum);
+            if(guseNum<minValue || guseNum>maxValue){
+                alert("Your number is out of range");
+            }
+            else if(isNaN){
+                alert("Please Enter A Number");
+            }
+            else{
+                count++;
+                if(guseNum>randomNum){
+                    alert("Your NUmber is too high");
+                }
+                else if(guseNum<randomNum){
+                    alert("Your NUmber is Too small")
+                }
+                else{
+                    alert(`Congrats!! YOu Guse a number in ${count} try :)`)
+                    loopCon = false
+                }
+            }
+        }
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
