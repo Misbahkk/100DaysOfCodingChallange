@@ -5,7 +5,7 @@ method which returns a rank of every respective index of a series passed.
 The rank is returned on the basis of position after sorting."""
 
 import pandas as pd
-
+#
 '''Example #1 :
 
 Here we will create a DataFrame of movies and rank them based on their ratings.'''
