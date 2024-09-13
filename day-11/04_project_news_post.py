@@ -1,7 +1,7 @@
 import pandas as pd
-
-
-## add the csv file
+# 
+# 
+## add the CSV file
 news_df = pd.read_csv('practice on youtube vedio\hacks.csv')
 print(news_df.columns)
 
