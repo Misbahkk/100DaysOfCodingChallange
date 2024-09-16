@@ -1,6 +1,6 @@
 import pandas as pd
 
-
+# 
 df = pd.read_csv('visitors.csv')
 print(df.columns)
 # convert the appt_start_date column in datetime because this 
